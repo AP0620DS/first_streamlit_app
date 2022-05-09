@@ -5,4 +5,4 @@ st.text('Omega 3 & Blueberry oatmeal')
 st.text('Kale,Spinach & rocket Smoothie')
 st.text('hard-Boiled Free-range Egg')
 
-streamlit.header('U+1F60B + Build Your Own Fruit Smoothie')
+st.header('\N{flexed biceps} Breakfast of Champion Coders \N{flexed biceps}')
