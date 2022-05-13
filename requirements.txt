@@ -1,1 +1,1 @@
-import snowflake.connector
+-m pip install --no-use-pep517 snowflake-connector-python
