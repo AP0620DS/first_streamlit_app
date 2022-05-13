@@ -26,8 +26,6 @@ streamlit.text(fruityvice_response)
 #fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" +"Kiwi")
 ##streamlit.text(fruityvice_response.json()) delete 
 
-
-
 #New Section to display frityvice api response 
 
 streamlit.header('Fruityvice Fruit Advice!')
