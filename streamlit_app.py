@@ -36,4 +36,4 @@ fruityvice_normalized = panda.json_normalize(fruityvice_response.json())
 
 #output it on the screeen as a table 
 
-streamlit.dataframe(fruityvice_normalized)
+#streamlit.dataframe(fruityvice_normalized)
