@@ -34,7 +34,7 @@ streamlit.dataframe(fruityvice_normalized)
 #New Section to display frityvice api response 
 
 streamhit,header('Fruityvice Fruit Advice!!')
-fruit_choice = streamlit.text_input('What fruit whould you like information about ?' ,Kiwi')
+fruit_choice = streamlit.text_input('What fruit whould you like information about ?' ,'Kiwi')
                                                      
 import requests
 fruityvice_response = equests.get("https://fruityvice.com/api/fruit/"+fruit_choice)
