@@ -21,7 +21,7 @@ streamlit.text(fruityvice_response)
 
 
 #New Section to display fruityvice api response 
-streamlit.header('Fruityvice Fruit Advice !')
+streamlit.header('Fruityvice Fruit Advice!')
 import requests 
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" +"Kiwi")
 #streamlit.text(fruityvice_response.json()) delete 
@@ -33,7 +33,7 @@ streamlit.dataframe(fruityvice_normalized)
 
 #New Section to display frityvice api response 
 
-streamhit,header('Fruityvice Fruit Advice!!')
+streamhit,header('Fruityvice Fruit Advice!')
 fruit_choice = streamlit.text_input('What fruit whould you like information about ?' ,'Kiwi')
                                                      
 import requests
